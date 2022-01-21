@@ -97,13 +97,18 @@ body{
     padding:20px 0;
     overflow-x:hidden ;
     margin-top: 80px;
+    background: black;
 }
 .carousel{
+    
     display: flex;
+    
     width:92%;
     height: 100%;
+    
     position: relative;
     margin: auto;
+    background: yellow;
     /*background: #000;*/
 }
 .slider{
@@ -117,5 +122,12 @@ body{
     left:0;
     transition: 1s;
     overflow: hidden;
-    
+
+}
+.slider img{
+    width:70%;
+    min-height: 100%;
+    object-fit:cover ;
+    display: block;
+    margin-left: auto;
 }
