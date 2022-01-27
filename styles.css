@@ -5,9 +5,12 @@
 }
 body{
     width: 100%;
-    background: #0c111b;
-    position: relative;
-    font-family: roboto,sans-serif;
+    background:!important #0c111b;
+    position:relative;
+    font-family:roboto,sans-serif;
+}
+body{
+    background:#0c111b ;
 }
 
 .navbar{
@@ -90,6 +93,7 @@ body{
     font-weight:700 ;
     text-decoration: none;
 }
+
 .carousel-container{
     position: relative;
     width: 100%;
@@ -108,6 +112,11 @@ body{
     margin: auto;
     /*background: white;*/
 }
+.carousel-inner{
+    background:#0c111b;
+    width: 100%;
+}
+
 .slider{
     flex: 0 0 auto;
     margin-right: 30px;
@@ -149,4 +158,211 @@ body{
     padding-left: 50px;
     margin-top: 30px;
     opacity: 0.8;
+}
+.padding{
+    background-color: lightgreen;
+}
+
+
+.box{
+        height:240px;
+        display:flex;
+        overflow-x: auto;
+        margin:10px 0px 0px 30px;
+    }
+.boxes{
+    height:px;
+    width: 100%;
+        display:flex;
+        overflow-x: auto;
+        margin:10px 0px 0px 30px;
+}
+h3{
+        color:white;
+        margin:10px 0px 0px 32px;
+        font-family: Arial;
+        font-size: 16px;
+        font-weight: 600;
+    }
+.box::-webkit-scrollbar{
+        width:0px;
+    }
+.boxes::-webkit-scrollbar{
+        width:0px;
+    }
+div.box div{
+    padding: 5px;
+}
+div.boxes div{
+    padding: 5px;
+}
+.footer{
+    height:fit-content;
+}
+.alink{
+    color:white;
+    text-decoration: none;
+    padding: 2px;
+    margin:0px 0px 13px 25px ;
+    word-wrap: break-word;
+    width:990px; 
+    font-size: 12px;
+}
+.search{
+    float:right;
+    margin:25px 10px 0px 25px;
+    font-size:14px;
+    border-bottom: 1px solid rgb(223, 221, 221);
+    width:170px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.h51{
+    color:white;
+    font-size:12px;
+    margin:0px 0px 10px 25px;
+    font-family: Arial, Helvetica ,sans-serif;
+    padding-top: 25px;
+    font-weight: lighter;
+}
+
+body{
+    background:!important #001a33;
+    color:white;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #001a33;
+    min-width:140px ;
+    border-radius: 5px;
+    height:fit-content;
+    margin-top: 10px;
+}
+  .dropdown-content a {
+    padding: 15px 5px 15px 10px;
+    text-decoration: none;
+    display: block;
+}
+  .dropdown-content a:hover {
+      background-color: black;
+}
+  .dropdown:hover .dropdown-content {
+      display: block;
+}
+  .dropdown1 {
+    position: relative;
+    display: inline-block;
+}
+ 
+  .dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #001a33;
+    width:120px;
+    border-radius: 5px;
+    min-height:230px;
+    margin-top: 10px;
+}
+.dropdown-content2 a {
+    padding: 15px ;
+    text-decoration: none;
+    display: block;
+}
+  .dropdown-content2 a:hover {
+      background-color: black;
+}
+  .dropdown2:hover .dropdown-content2 {
+      display: block;
+}
+.movie{
+    width:150px;
+    height:200px;
+    padding: 5px;
+    border-radius: 8px;
+}
+.movie:hover{
+    background-color:white;
+}
+.footer{
+   background:  !important #0c111b;
+   background-color: rgba(0,0,0, 0.7);
+   width:100%;
+   height:200px;
+   margin-top: 60px;
+   position: sticky;
+}
+.h51{
+    color:white;
+    font-size:13px;
+    margin:0px 0px 10px 25px;
+    font-family: Arial, Helvetica ,sans-serif;
+    padding-top: 25px;
+}
+.alink{
+    color:white;
+    text-decoration: none;
+    padding: 2px;
+    margin:0px 0px 13px 20px ;
+     
+}
+.alink:hover{
+    color:#00aaff;
+}
+h5{
+  width: 630px; 
+  font-size:14px;
+  word-wrap: break-word;
+  margin:20px 0px 20px 25px;
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 20px;
+  
+}
+.con{
+    line-height:80px;
+    margin-top:-143px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 100px;
+    color:white;
+    font-size: 12px;
+}
+.twt{
+    border-radius:5px;
+    margin-left: -25px;
+    margin-top: -50px;
+}
+.fbimg{
+  margin-top:-40px;
+  border-radius: 5px;
+  margin-left:90px;
+}
+.sub1{
+    color:#00aaff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fb{
+    margin:0px 0px 0px 690px;
+}
+.gplay{
+    margin-left: 270px;
+    border-radius: 10px;
+    margin-top:10px;
+}
+.down{
+    margin-top: -67px;
+    margin-left:290px;
+    line-height: 20px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+}
+.dplay{
+    margin-left: -25px;
+    border-radius: 10px;
+    margin-top:-5px;
+    font-size: 12px;
 }
