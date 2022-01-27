@@ -10,7 +10,8 @@ body{
     font-family:roboto,sans-serif;
 }
 body{
-    background:#0c111b ;
+    background:  !important #0c111b ;
+    backface-visibility: hidden;
 }
 
 .navbar{
@@ -165,14 +166,18 @@ body{
 
 
 .box{
+        background:  !important #0c111b ;
+
         height:240px;
         display:flex;
         overflow-x: auto;
         margin:10px 0px 0px 30px;
     }
 .boxes{
+    background:  !important #0c111b ;
+
     height:px;
-    width: 100%;
+    width:  !important 100%;
         display:flex;
         overflow-x: auto;
         margin:10px 0px 0px 30px;
