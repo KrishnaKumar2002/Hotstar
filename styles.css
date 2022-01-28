@@ -417,7 +417,9 @@ h5{
       }
 
 
-
+      .body{
+          background-color: #0c111b;
+      }
       .footer{
           height: fit-content;
           display: ;
@@ -449,6 +451,7 @@ h5{
         display: flex;
         flex-direction: column;
         margin:40px 0px 0px 50px;
+        display: none;
     }
     .gplay{
         margin-left: 270px;
@@ -456,12 +459,14 @@ h5{
         margin-top:10px;
     }
     .down{
-        margin-top: -67px;
-        margin-left:290px;
+        display: flex;
+        flex-direction: column;
+        /*margin-top: -67px;
+        margin-left:290px;*/
         line-height: 20px;
         color:white;
         font-family: Arial, Helvetica, sans-serif;
-        font-size:12px;
+        font-size:8px;
     }
     .dplay{
         margin-left: -25px;
@@ -486,39 +491,35 @@ h5{
         height: 40px;
     }
     .search-box{
-        width: 140px;
+        width: 100px;
     }
-    .h51{
-        color:white;
-        font-size:!important 6px;
-        margin:0px 0px 10px 25px;
-        font-family: Arial, Helvetica ,sans-serif;
-        padding-top: 18px;
+    .fb{
+        display: none;
     }
-    .alink{
-        color:white;
-        text-decoration: none;
-        padding: 1px;
-        margin:0px 0px 13px 20px ;    
-        font-size: 9px;
-    }
-    h5{
-        width: 100%; 
-        font-size:12px;
-        word-wrap: break-word;
-        margin:20px 0px 20px 25px;
-        color:white;
-        font-family: Arial, Helvetica, sans-serif;
-        line-height: 20px;
-        
-      }
 }
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
+@media (min-width:768px) and (max-width:992px) { 
+    .nav-items a{
+        display:  !important none;
+    }
+    .brand-logo{
+        height: 30px;
+    }
+    .search-box{
+        width: 80px;
+    }
+    .fb{
+        display: none;
+    }
+ }
 
 // X-Large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
+@media (min-width:992px) and (max-width:1200px) { 
+    
+}
 
 // XX-Large devices (larger desktops, 1400px and up)
-@media (min-width: 1400px)
+@media (min-width: 1200px){
+    
+}
