@@ -10,7 +10,7 @@ body{
     font-family:roboto,sans-serif;
 }
 body{
-    background:  !important #0c111b ;
+    background:!important #0c111b ;
     backface-visibility: hidden;
 }
 
@@ -311,8 +311,7 @@ body{
     color:white;
     text-decoration: none;
     padding: 2px;
-    margin:0px 0px 13px 20px ;
-     
+    margin:0px 0px 13px 20px ;    
 }
 .alink:hover{
     color:#00aaff;
@@ -371,3 +370,155 @@ h5{
     margin-top:-5px;
     font-size: 12px;
 }
+
+@media (max-width: 576px) { 
+    .kids-icon{
+        display: none;
+        align-items:center ;
+    }    
+    .login-link{
+        display: none;
+    }
+    .search-box{
+        width: 100px;
+    }
+    .navbar{
+        height: 40px;
+    }
+    .brand-logo{
+        height: 35px;
+    }
+    .nav-items a{
+        display: none;
+    }
+    .h51{
+        color:white;
+        font-size:!important 6px;
+        margin:0px 0px 10px 25px;
+        font-family: Arial, Helvetica ,sans-serif;
+        padding-top: 18px;
+    }
+    .alink{
+        color:white;
+        text-decoration: none;
+        padding: 1px;
+        margin:0px 0px 13px 20px ;    
+        font-size: 9px;
+    }
+    h5{
+        width: 90%; 
+        font-size:9px;
+        word-wrap: break-word;
+        margin:20px 0px 20px 25px;
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 20px;
+        
+      }
+
+
+
+      .footer{
+          height: fit-content;
+          display: ;
+          flex-direction: ;
+      }
+      .con{
+        line-height:80px;
+        margin-top:-143px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 40px 0px 0px 50px;
+        color:white;
+        font-size: 12px;
+    }
+    .twt{
+        border-radius:5px;
+        margin-left: -25px;
+        margin-top: -50px;
+    }
+    .fbimg{
+      margin-top:-40px;
+      border-radius: 5px;
+      margin-left:90px;
+    }
+    .sub1{
+        color:#00aaff;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .fb{
+        display: flex;
+        flex-direction: column;
+        margin:40px 0px 0px 50px;
+    }
+    .gplay{
+        margin-left: 270px;
+        border-radius: 10px;
+        margin-top:10px;
+    }
+    .down{
+        margin-top: -67px;
+        margin-left:290px;
+        line-height: 20px;
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:12px;
+    }
+    .dplay{
+        margin-left: -25px;
+        border-radius: 10px;
+        margin-top:-5px;
+        font-size: 12px;
+    }
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+
+@media (min-width:576px) and (max-width:768px) {
+    
+    .nav-items a{
+        display:none;
+    }
+    .navbar{
+        height: 50px;
+    }
+    .brand-logo{
+        height: 40px;
+    }
+    .search-box{
+        width: 140px;
+    }
+    .h51{
+        color:white;
+        font-size:!important 6px;
+        margin:0px 0px 10px 25px;
+        font-family: Arial, Helvetica ,sans-serif;
+        padding-top: 18px;
+    }
+    .alink{
+        color:white;
+        text-decoration: none;
+        padding: 1px;
+        margin:0px 0px 13px 20px ;    
+        font-size: 9px;
+    }
+    h5{
+        width: 100%; 
+        font-size:12px;
+        word-wrap: break-word;
+        margin:20px 0px 20px 25px;
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 20px;
+        
+      }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px)
